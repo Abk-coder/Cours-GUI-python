@@ -17,7 +17,7 @@ def changecolor():
     global coul
     pal = ['puple', 'cyan', 'maroon', 'green',
            'red', 'blue', 'orange', 'yellow']
-    c = randrange(8)  # génère un nombre aléatoire de 0 à 7
+    c = randrange(1, 4)  # génère un nombre aléatoire de 1 à 3
     coul = pal[c]
 
 
